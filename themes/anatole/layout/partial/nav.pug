@@ -2,9 +2,9 @@
   .nav
     li
       if is_home()
-        a.current(href="/")= __('Home')					
+        a.current(href="/")= __('首页')					
       else
-        a(href="/")= __('Home')	
+        a(href="/")= __('首页')	
     li
       if is_current('about')
         a.current(href="/about")= __('About')			
@@ -29,3 +29,4 @@
           a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
     .avatar
       img(src=theme.avatar)
+      
