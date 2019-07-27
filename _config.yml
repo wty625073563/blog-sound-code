@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 猫肥猫 鱼飞鱼
+title: CatAndFish
 subtitle:
 description:
 keywords:
@@ -74,7 +74,54 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
+theme: Nlvi
+
+# ===========================================
+# Nlvi
+# ===========================================
+
+menu:
+  article: /
+  archives: /archives
+  tags: /tags
+  about: /about
+
+animate: true
+toc: true
+
+# Comments // Please only switch one on.
+comments:
+  enable: true
+
+  gitment:
+    owner: wty625073563
+    repo: git@github.com:wty625073563/blog.git
+    client_id: a2f3ae5d670fad0aa1c9
+    client_secret: 1d6281f8af7a2936af70828199bae152b3b64c8a
+    admin:
+
+search:
+  enable: true
+  label: 搜索一下？
+
+# Created Time
+since: 2018
+
+# Navigator Language
+local-nav: true
+
+scheme: balance
+# theme-style
+theme-style: dark
+
+# favicon
+favicon: /blog/images/icon/cat.png
+
+version: 3.0
+
+# ===========================================
+# Nlvi
+# ===========================================
 
 prism_plugin:
   mode: 'preprocess' # realtime/preprocess
@@ -89,5 +136,5 @@ archive_generator:
 
 deploy: 
   type: git
-  repo: https://github.com/wty625073563/woods.github.io.git
+  repo: git@github.com:wty625073563/blog.git
   branch: master
