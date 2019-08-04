@@ -123,6 +123,24 @@ version: 3.0
 # Nlvi
 # ===========================================
 
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 200
+    height: 350
+  mobile:
+    show: true
+
 prism_plugin:
   mode: 'preprocess' # realtime/preprocess
   theme: 'default'
